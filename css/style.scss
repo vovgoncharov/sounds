@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+body {
+    height: 100vh;
+}
+
 .header {
     background-color: #000;
 }
@@ -40,16 +44,11 @@
     height: 81.9vh;
 }
 
-.play-btn,
-.pause-btn {
+.play-btn {
     width: 20px;
     height: 20px;
     background-color: #fff;
     cursor: pointer;
-    border-radius: 50%;
-    background-color: #000;
-    border: 2px solid #fff;
-    position: relative;
 }
 
 .footer {

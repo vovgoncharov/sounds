@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    height: 100vh;
+    width: 100%;
+    background: url(../assets/img/forest.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.header {
+    background-color: #000;
+}
+
+.wrap {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.menu {
+    display: flex;
+}
+
+.item {
+    margin-left: 30px;
+}
+
+.link {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* .section {
+    height: 100%;
+    
+} */
+
+.play-btn,
+.pause-btn {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    border: none;
+    background-image: url(../assets/svg/play.svg);
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-color: #000;
+}
+.pause-btn {
+    background-image: url(../assets/svg/pause.svg);
+    display: none;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: #000;
+    padding: 11px 0;
+}
+
+.copy {
+    color: #fff;
+}
+
+@media screen and (max-width: 630px) {
+    .menu {
+        flex-direction: column;
+    }
+    .item {
+        margin: 10px 0;
+    }
+} /*# sourceMappingURL=style.css.map */
